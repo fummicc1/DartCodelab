@@ -1,6 +1,13 @@
+import 'package:chat_app/components/chat_list.dart';
+import 'package:chat_app/logics/app.dart';
+import 'package:chat_app/logics/chat_list.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(ChangeNotifierProvider(
+      create: (_) => AppStore(),
+      child: MyApp(),
+    ));
 
 class MyApp extends StatelessWidget {
   @override
@@ -10,7 +17,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Chat App'),
+      home: ChangeNotifierProvider(
+        create: (_) => ChatListStore(),
+        child: ChatListPage(),
+      ),
     );
   }
 }
