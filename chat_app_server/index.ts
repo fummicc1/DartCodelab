@@ -27,13 +27,15 @@ app.get('/', (request, response) => {
 })
 
 io.on('connection', (socket) => {
+    socket.id
     console.log('connected')
     socket.on("create_chat", (data) => {
         let chat: Chat = JSON.parse(data)
         client.set("chats", JSON.stringify(chats), (error) => {
             if (error) console.error(error)
             else getChats()
-        })
+            socket.broadcast.emit("")
+        })        
     })
 })
 
