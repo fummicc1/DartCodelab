@@ -1,14 +1,14 @@
 export interface Chat {
     id: number,
     messages: ChatMessage[],
-    members: number[],
+    members: string[],
     createdAt: Date
 }
 
 export interface ChatMessage {
     id: number,
     text: string,
-    from: number,
-    to: number,
+    from: string,
+    to: string,
     createdAt: Date,
 }
