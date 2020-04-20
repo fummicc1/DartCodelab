@@ -6,10 +6,10 @@ import 'package:provider/provider.dart';
 
 void main() => runApp(ChangeNotifierProvider(
       create: (_) => AppStore(),
-      child: MyApp(),
+      child: AppPage(),
     ));
 
-class MyApp extends StatelessWidget {
+class AppPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
