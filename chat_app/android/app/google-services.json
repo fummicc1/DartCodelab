@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889539812052",
+    "firebase_url": "https://fluttercodelab-b7fd4.firebaseio.com",
+    "project_id": "fluttercodelab-b7fd4",
+    "storage_bucket": "fluttercodelab-b7fd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889539812052:android:c59f3c205200c1ff993941",
+        "android_client_info": {
+          "package_name": "dev.fummicc1.FlutterCodelab.chatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889539812052-cqhk67kf2rcf372838gkcu50qtg18qop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIXLOepaYUnzdt-LRAk9WvPnmP7NGO8JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889539812052-cqhk67kf2rcf372838gkcu50qtg18qop.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "889539812052-r66hi20tkius5vc8t93okhhr88l6bonb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.fummicc1.FlutterCodelab.chatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

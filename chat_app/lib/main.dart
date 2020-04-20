@@ -1,6 +1,6 @@
 import 'package:chat_app/components/chat_list.dart';
-import 'package:chat_app/logics/app.dart';
-import 'package:chat_app/logics/chat_list.dart';
+import 'package:chat_app/store/app.dart';
+import 'package:chat_app/store/chat_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

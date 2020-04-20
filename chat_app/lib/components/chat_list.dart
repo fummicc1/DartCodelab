@@ -11,10 +11,15 @@ class ChatListPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               SizedBox(height: 24),
-              Text("チャット一覧", style: Theme.of(context).textTheme.display1),
-              Divider(color: Theme.of(context).dividerColor),
+              Row(
+                children: <Widget>[
+                  Text("チャット一覧", style: Theme.of(context).textTheme.display1),
+                  Spacer(),
+                  IconButton(onPressed: () {
+                  }, icon: Icon(Icons.add, size: 32))
+                ],
+              ),
               SizedBox(height: 8),
-              ListView.builder(itemBuilder: null)
             ],
           ),
         ),

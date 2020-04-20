@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>889539812052-r66hi20tkius5vc8t93okhhr88l6bonb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.889539812052-r66hi20tkius5vc8t93okhhr88l6bonb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBoWkFNVUkXo1NHTmIRAIB_1LteMXMPLmc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>889539812052</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dev.fummicc1.FlutterCodelab.chatApp</string>
+	<key>PROJECT_ID</key>
+	<string>fluttercodelab-b7fd4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fluttercodelab-b7fd4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:889539812052:ios:de65ad48f59e6fa9993941</string>
+	<key>DATABASE_URL</key>
+	<string>https://fluttercodelab-b7fd4.firebaseio.com</string>
+</dict>
+</plist>
