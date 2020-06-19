@@ -1,0 +1,3 @@
+[submodule "flutter_chat_bot"]
+	path = flutter_chat_bot
+	url = git@github.com:fummicc1/flutter_chat_bot.git
